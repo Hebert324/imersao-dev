@@ -1,5 +1,4 @@
 # imersao-dev
- Imersão Dev da alura
 
 ## Projetos criados na Imersão Dev da alura:
 <ol>

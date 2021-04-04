@@ -1,10 +1,7 @@
-var valorEmDolarTexto = prompt("Qual o valor em dolar que você quer converter?")
-
-var valorEmDolarTexto = prompt("Qual o valor em dolar que você quer converter?")
-
-var valorEmDolarNumero = parseFloat(valorEmDolarTexto)
-
-var valorEmReal = valorEmDolarNumero * 5.50
-var valorEmRealFixado = valorEmReal.toFixed(2)
-
-alert(valorEmRealFixado)
+function converter() {
+    var valueDolar = document.getElementById("valueinput").value
+    var valueReal = (parseFloat(valueDolar) * 5.5).toFixed(2)
+  
+    document.getElementById("resultado").innerHTML =
+      "O valor convertido de Dolar U$ para Real R$ é: " + "R$" + valueReal.replace(".", ",")
+  }

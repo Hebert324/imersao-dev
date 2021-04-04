@@ -34,3 +34,24 @@ body {
     top: 10px;
     right:10px;
   }
+  .valor {
+    position: relative;
+    font-family: 'Secular One';
+    font-size: 16px;
+    padding: 0.5rem;
+    margin: auto;
+    color: rgb(0, 0, 0);
+    width: 19rem;
+    border-radius: 5px;
+  }
+  
+  .botao{
+    padding: 5px;
+    margin: 0px;
+    border: 0px;
+  }
+  #resultado{
+    color: white;
+    margin: auto;
+    margin-bottom: 10px;
+  } 

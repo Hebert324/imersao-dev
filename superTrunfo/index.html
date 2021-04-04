@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Trunfo Dragon Ball</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <img src="https://i.pinimg.com/originals/5d/b6/40/5db64018ac7381cbb7ddcb3375253d2b.png" class="page-logo"
+            alt="">
+        <h1 class="page-title">Super Trunfo Dragon Ball</h1>
+        <button class="button-sortear"onclick="sortearCarta()" id="btnSortear">Sortear carta</button>
+        <form id="form">
+            <h2 class="escolha" id="escolha"></h2>
+            <div class="opcoes" id="opcoes"></div>
+            <div id="placar"></div>
+            <div id="quantidade-cartas"></div>
+          <div class="wrapper" id="cartas">
+              <div id="carta-jogador" class="carta"></div>
+              <h3 id="h3">VS</h3>
+              <div id="carta-maquina" class="carta"></div>
+          </div>
+            <div id="resultado"></div>
+            <button class="button-jogar" type="button" id="btnJogar" onclick="jogar()" disabled="false">Jogar</button>
+          <button class="button-proxima"  type="button" id="btnProximaRodada" onclick="proximaRodada()" disabled="true">Proxima
+                rodada</button>
+        </form>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

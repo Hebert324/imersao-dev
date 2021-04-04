@@ -1,0 +1,51 @@
+body {
+    font-family: 'Roboto Mono',monospace;
+    min-height: 600px;
+    background-image: url('https://seriesemcena.com.br/wp-content/uploads/2019/07/apps.56208.14589341624142810.e0b0ecb4-16f7-4042-beb4-e94fd47b5bb5.jpg');
+    background-color: #000000;
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    height: 95vh;
+  }
+h2 {
+  color: #F1252E;
+  font-family: 'Roboto Mono',monospace;
+  font-size: 50px;
+  margin-top: 375px;
+  text-align: center;
+  text-shadow: 4px 4px 3px black;
+}
+  
+  .page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+  }
+  
+  .page-logo {
+    width: 200px;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right:10px;
+  }
+
+  
+  @media (max-height: 500px) {
+    body {
+      min-height:800px;
+    }
+  }

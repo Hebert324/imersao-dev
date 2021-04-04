@@ -1,7 +1,14 @@
 # imersao-dev
  Imersão Dev da alura
 
-## <a href="https://hebert324.github.io/imersao-dev/certificard/index.html" target="_blank"> Acesse os projetos da imersão!</a>
-<div>
-<img src="https://i.pinimg.com/564x/85/8d/1a/858d1ae5dc8e64cb93f45e5d2347d8a3.jpg">
-</div>
+## Projetos criados na Imersão Dev da alura:
+<ol>
+    <li><a href="https://codepen.io/hebert324/full/zYNOPej" target="_blank" class="cor-lista">💰 Conversor de Moedas</a></li>
+    <li><a href="https://codepen.io/hebert324/full/MWJwWwM" target="_blank" class="cor-lista">🔢 Calculadora</a></li>
+    <li><a href="https://codepen.io/hebert324/full/JjEYqxq" target="_blank" class="cor-lista">🔮 Mentalista</a></li>
+    <li><a href="NaN" target="_blank" class="cor-lista">🎬 Aluraflix</a></li>
+    <li><a href="https://codepen.io/hebert324/full/qBRaEga" target="_blank" class="cor-lista">🏆 Tabela de Classificação</a></li>
+    <li><a href="https://codepen.io/hebert324/full/jOyyEOB" target="_blank" class="cor-lista">🃏 Supertrunfo Dragon Ball</a></li>
+    <li><a href="https://codepen.io/hebert324/full/oNBWypN" target="_blank" class="cor-lista">🌐 Certificard</a></li>
+    <li><a href="https://codepen.io/hebert324/full/bGgddQv" target="_blank" class="cor-lista">🕹️ Quem e esse pokémon?</a></li>
+</ol>

@@ -1,7 +1,7 @@
-var resposta1 = "Bulbasaur"
-var resposta2 = "Pikachu"
-var resposta3 = "Squirtle"
-var resposta4 = "Charmander"
+var resposta1 = "bulbasaur"
+var resposta2 = "pikachu"
+var resposta3 = "squirtle"
+var resposta4 = "charmander"
 var mestre = "Parabéns você se tornou um mestre pokémon!"
 function botao(){
   var campoNomePokemon = document.querySelector('.nomePokemon')

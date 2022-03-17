@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    min-height: 400px;
+    background-color: #000000;
+    background-size: 50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+}
+
+.page-title {
+    color:#ffffff;
+    margin: 0 0 5px;
+}
+  
+.page-subtitle {
+    color:#ffffff;
+    margin: 5px 0 10px 0;
+} 
+
+.page-logo {
+    width: 200px;
+}
+
+.section {
+    display: grid;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.section input {
+    margin: 16px;
+    padding: 10px;
+    border: 3px solid #000000;
+    width: 19rem;
+    border-radius: 3px;
+    transition: border .2s;
+    outline: 0;
+}
+
+/* Utilizado para esconder botões padrões do input type=number */
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+.section input:hover {
+    border: 3px solid #ffe53a;
+}
+
+.section input:focus {
+    border: 3px solid #ffe53a;
+}
+
+button {
+    border: none;
+    padding: 7px;
+    background-color: #fff;
+    width: 100px;
+    margin: auto;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: .3s;
+    margin-top: 15px;
+}
+
+button:hover {
+    background-color: #f8d536;
+}
+
+.alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+#resultado {
+    color: #fff;
+    transition: 0.3s;
+}
+
+#resultado span{
+    color: #f8d536;
+}

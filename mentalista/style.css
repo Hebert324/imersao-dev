@@ -1,51 +1,94 @@
 body {
-    font-family: 'Roboto Mono',monospace;
-    min-height: 600px;
-    background-image: url('https://seriesemcena.com.br/wp-content/uploads/2019/07/apps.56208.14589341624142810.e0b0ecb4-16f7-4042-beb4-e94fd47b5bb5.jpg');
-    background-color: #000000;
-    background-size: cover;
-    background-position: center bottom;
-    background-repeat: no-repeat;
-  }
-  
-  .container {
-    text-align: center;
-    padding: 20px;
-    height: 95vh;
-  }
-h2 {
-  color: #F1252E;
-  font-family: 'Roboto Mono',monospace;
-  font-size: 50px;
-  margin-top: 375px;
-  text-align: center;
-  text-shadow: 4px 4px 3px black;
+  font-family: "Roboto Mono", monospace;
+  min-height: 600px;
+  background-color: #000000;
+  background-image: linear-gradient(180deg, #2C1946,#43296F, #61318B,#8E3774, #9B3854);
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  overflow-y: hidden;
 }
-  
-  .page-title {
-    color: #ffffff;
-    margin: 0 0 5px;
-  }
-  
-  .page-subtitle {
-    color: #ffffff;
-    margin-top: 5px;
-  }
-  
-  .page-logo {
-    width: 200px;
-  }
-  
-  .alura-logo {
-    width: 40px;
-    position: absolute;
-    top: 10px;
-    right:10px;
-  }
 
-  
-  @media (max-height: 500px) {
-    body {
-      min-height:800px;
-    }
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  color: #ffffff;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 40px;
+}
+
+.page-logo {
+  width: 150px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-height: 500px) {
+  body {
+    min-height: 800px;
   }
+}
+
+input {
+  margin: 4px;
+  padding: 6px;
+  border-radius: 5px;
+  border: none;
+  outline: 0;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+button {
+  margin-top: 12px;
+  padding: 8px 10px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  background: #ffffff;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #ff0011;
+}
+
+.resultado {
+  color: #ffffff;
+  text-align: center;
+  margin-top: 16px;
+}
+
+.hidden{
+  display: none;
+  transition: 0.3s;
+}
